@@ -1,0 +1,40 @@
+@media print {
+	footer,
+	.link {
+		display: none;
+	}
+
+    hr {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+	article,
+	ul {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
+
+	section {
+		margin-bottom: 12px;
+	}
+
+	p,
+	li {
+		font-size: 11px;
+		color: #000;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	h2 {
+		font-size: 16px;
+		margin-top: 16px;
+	}
+
+	h4 {
+		font-size: 13px;
+	}
+}

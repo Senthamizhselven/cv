@@ -226,6 +226,9 @@
   .grid {
     display: grid;
   }
+  .hidden {
+    display: none;
+  }
   .list-inside {
     list-style-position: inside;
   }
@@ -237,6 +240,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-row {
+    flex-direction: row;
   }
   .justify-between {
     justify-content: space-between;
@@ -314,6 +320,9 @@
   .underline-offset-2 {
     text-underline-offset: 2px;
   }
+  .opacity-70 {
+    opacity: 70%;
+  }
   .hover\:text-slate-900 {
     &:hover {
       @media (hover: hover) {
@@ -339,6 +348,11 @@
   .md\:mx-16 {
     @media (width >= 48rem) {
       margin-inline: calc(var(--spacing) * 16);
+    }
+  }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
     }
   }
   .md\:grid-cols-4 {

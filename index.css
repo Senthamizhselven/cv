@@ -217,9 +217,6 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
-  .mt-12 {
-    margin-top: calc(var(--spacing) * 12);
-  }
   .flex {
     display: flex;
   }
@@ -240,9 +237,6 @@
   }
   .flex-col {
     flex-direction: column;
-  }
-  .flex-row {
-    flex-direction: row;
   }
   .justify-between {
     justify-content: space-between;

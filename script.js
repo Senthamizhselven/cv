@@ -1,4 +1,5 @@
 (function () {
+  // career start date - to calculate total xp
   const startDate = new Date(2018, 2);
   const now = new Date();
 

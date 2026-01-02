@@ -10,6 +10,7 @@
     }
 
 	article,
+	section,
 	ul {
 		break-inside: avoid;
 		page-break-inside: avoid;

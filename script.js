@@ -5,6 +5,8 @@
   let years = now.getFullYear() - startDate.getFullYear();
   let months = now.getMonth() - startDate.getMonth();
 
+  const summaryEl = document.getElementById("summary_exp");
+  if(summaryEl) summaryEl.textContent = years;
   if (months < 0) {
     years--;
     months += 12;

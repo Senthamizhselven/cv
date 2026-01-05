@@ -8,10 +8,10 @@
 		margin-top: 0.5rem;
 	}
 
-    hr {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
+	hr {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
 
 	article,
 	section,
@@ -45,5 +45,24 @@
 
 	h4 {
 		font-size: 13px;
+	}
+
+	.skills {
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		justify-content: start !important;
+		gap: 4px 12px;
+		font-size: 12px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+
+	.skills > div {
+		margin: 0;
+		padding: 0;
+	}
+
+	.skills > div:nth-child(odd) {
+		font-weight: 600;
 	}
 }

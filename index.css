@@ -211,9 +211,6 @@
   .my-8 {
     margin-block: calc(var(--spacing) * 8);
   }
-  .my-10 {
-    margin-block: calc(var(--spacing) * 10);
-  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -372,10 +369,9 @@
       justify-content: center;
     }
   }
-  .md\:text-base {
+  .md\:whitespace-nowrap {
     @media (width >= 48rem) {
-      font-size: var(--text-base);
-      line-height: var(--tw-leading, var(--text-base--line-height));
+      white-space: nowrap;
     }
   }
 }
